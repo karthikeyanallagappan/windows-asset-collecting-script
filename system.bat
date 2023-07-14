@@ -34,7 +34,7 @@ ECHO =============================
 wmic path softwarelicensingservice get OA3xOriginalProductKey
 
 ECHO ------------------------------
-ECHO APPLICATION LIST.
+:: ECHO APPLICATION LIST.
 ECHO ------------------------------
 wmic product get name, version
 ECHO ------------------------------
