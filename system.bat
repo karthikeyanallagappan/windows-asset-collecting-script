@@ -38,7 +38,7 @@ ECHO APPLICATION LIST.
 ECHO ------------------------------
 wmic product get name, version
 ECHO ------------------------------
-ECHO TASK VIEW.
+::ECHO TASK VIEW.
 tasklist
 ECHO ------------------------------
 )
